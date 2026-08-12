@@ -1,0 +1,41 @@
+/* Background & Core Theme */
+.stApp {
+    background-color: #0A0A0C;
+    color: #F1F1F1;
+}
+
+/* Panel Containers */
+div[data-testid="stColumn"] {
+    background: #121216;
+    border: 1px solid #22222B;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+/* Custom Text Accents */
+h1, h2, h3 {
+    color: #FFB7D5 !important;
+    font-weight: 700;
+}
+
+/* Custom Action Button */
+div.stButton > button {
+    background: linear-gradient(135deg, #FFB7D5 0%, #FF80BF 100%);
+    color: #0A0A0C !important;
+    font-weight: 700 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 24px !important;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+div.stButton > button:hover {
+    box-shadow: 0px 0px 15px rgba(255, 183, 213, 0.4);
+    transform: translateY(-1px);
+}
+
+/* Metric Display Adjustments */
+[data-testid="stMetricValue"] {
+    color: #FFB7D5 !important;
+}
